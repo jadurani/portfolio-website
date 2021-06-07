@@ -1,6 +1,8 @@
 {
   "name": "portfolio-website",
+  "description": "Personal Website 2021",
   "version": "0.0.0",
+  "author": "Jadurani Davalos <jadurani.davalos@gmail.com>",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
