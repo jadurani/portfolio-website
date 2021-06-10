@@ -3,7 +3,7 @@
 @import 'tailwindcss/utilities';
 
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
 
 :root {
   --color-foreground: #f0ebf3;
@@ -29,7 +29,14 @@
   }
 
   div,
-  span {
+  span,
+  article,
+  section,
+  p {
     @apply text-base font-body;
+  }
+
+  a {
+    @apply text-accent cursor-pointer;
   }
 }
