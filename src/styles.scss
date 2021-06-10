@@ -9,11 +9,13 @@
   --color-foreground: #f0ebf3;
   --color-background: #31293f;
   --color-accent: #da1c5c;
+  --color-accent--light: hsla(340, 77%, 48%, 0.253);
+  --color-accent--dark: #da1c5b50;
 }
 
 @layer base {
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground h-screen;
   }
 
   h1 {
@@ -39,4 +41,8 @@
   a {
     @apply text-accent cursor-pointer;
   }
+}
+
+* {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }

@@ -12,7 +12,11 @@ module.exports = {
       colors: {
         foreground: 'var(--color-foreground)',
         background: 'var(--color-background)',
-        accent: 'var(--color-accent)',
+        accent: {
+          dark: 'var(--color-accent--dark)',
+          DEFAULT: 'var(--color-accent)',
+          light: 'var(--color-accent--light)',
+        },
       },
     },
   },
