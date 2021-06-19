@@ -3,9 +3,21 @@
 @import 'tailwindcss/utilities';
 
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,800;1,400;1,500;1,600;1,800&display=swap');
+
+:root {
+  --color-foreground: #f0ebf3;
+  --color-background: #31293f;
+  --color-accent: #da1c5c;
+  --color-accent--light: hsla(340, 77%, 48%, 0.253);
+  --color-accent--dark: #da1c5b50;
+}
 
 @layer base {
+  body {
+    @apply bg-background text-foreground h-screen;
+  }
+
   h1 {
     @apply text-2xl font-header;
   }
@@ -19,7 +31,18 @@
   }
 
   div,
-  span {
-    @apply text-base font-sans;
+  span,
+  article,
+  section,
+  p {
+    @apply text-base font-body;
   }
+
+  a {
+    @apply text-accent cursor-pointer;
+  }
+}
+
+* {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }

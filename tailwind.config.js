@@ -6,8 +6,17 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['Montserrat', ...defaultTheme.fontFamily.sans],
+        body: ['Montserrat', ...defaultTheme.fontFamily.sans],
         header: ['Ubuntu', ...defaultTheme.fontFamily.sans],
+      },
+      colors: {
+        foreground: 'var(--color-foreground)',
+        background: 'var(--color-background)',
+        accent: {
+          dark: 'var(--color-accent--dark)',
+          DEFAULT: 'var(--color-accent)',
+          light: 'var(--color-accent--light)',
+        },
       },
     },
   },
