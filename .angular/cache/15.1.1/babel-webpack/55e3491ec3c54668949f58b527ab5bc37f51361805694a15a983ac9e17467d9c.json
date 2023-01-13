@@ -1,0 +1,18 @@
+{
+  "ast": null,
+  "code": "export function isFunction(x) {\n  return typeof x === 'function';\n}",
+  "map": {
+    "version": 3,
+    "names": ["isFunction", "x"],
+    "sources": [
+      "/Users/jadurani/code/self/portfolio-website/node_modules/rxjs/_esm2015/internal/util/isFunction.js"
+    ],
+    "sourcesContent": [
+      "export function isFunction(x) {\n    return typeof x === 'function';\n}\n"
+    ],
+    "mappings": "AAAA,OAAO,SAASA,UAAU,CAACC,CAAC,EAAE;EAC1B,OAAO,OAAOA,CAAC,KAAK,UAAU;AAClC"
+  },
+  "metadata": {},
+  "sourceType": "module",
+  "externalDependencies": []
+}
