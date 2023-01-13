@@ -51,6 +51,7 @@
     "karma-coverage": "~2.0.3",
     "karma-jasmine": "~4.0.0",
     "karma-jasmine-html-reporter": "^1.7.0",
+    "netlify-cli": "^12.7.2",
     "prettier": "^2.2.1",
     "pretty-quick": "^3.1.0",
     "protractor": "~7.0.0",
