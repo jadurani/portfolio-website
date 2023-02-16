@@ -1,8 +1,7 @@
 const defaultTheme = require('tailwindcss/defaultTheme');
 
 module.exports = {
-  purge: ['./src/**/*.{html,ts}'],
-  darkMode: false, // or 'media' or 'class'
+  content: ['./src/**/*.{html,ts}'],
   theme: {
     extend: {
       fontFamily: {
@@ -20,8 +19,9 @@ module.exports = {
       },
     },
   },
-  variants: {
-    extend: {},
-  },
   plugins: [require('@tailwindcss/typography')],
+  // they said this should be enabled for v3 but i don't like its side effects
+  // corePlugins: {
+  //   preflight: false,
+  // },
 };
