@@ -18,15 +18,18 @@
     @apply bg-background text-foreground h-screen;
   }
 
-  h1 {
+  h1,
+  .h1 {
     @apply text-2xl font-header;
   }
 
-  h2 {
+  h2,
+  .h2 {
     @apply text-xl font-header;
   }
 
-  h3 {
+  h3,
+  .h3 {
     @apply text-lg font-header;
   }
 

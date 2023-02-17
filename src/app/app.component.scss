@@ -1,3 +1,9 @@
 .btn {
-  @apply py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-red-400;
+  @apply rounded-full border-2 border-accent border-solid text-sm font-semibold text-accent py-3 px-5 focus:outline-none hover:bg-accent-light transition-colors duration-300;
+}
+
+.profile-link img:hover {
+  transition: 100ms filter linear;
+  filter: invert(50%) sepia(10%) saturate(6440%) hue-rotate(304deg)
+    brightness(97%) contrast(91%);
 }
