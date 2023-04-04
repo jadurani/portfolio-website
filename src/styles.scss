@@ -15,7 +15,7 @@
 
 @layer base {
   body {
-    @apply bg-background text-foreground h-screen;
+    @apply bg-background text-foreground h-screen w-screen;
   }
 
   h1,
