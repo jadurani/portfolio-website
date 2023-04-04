@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { NOAHComponent } from './pages/noah/noah.component';
 import { RapidpassComponent } from './pages/rapidpass/rapidpass.component';
 import { ReliefagadComponent } from './pages/reliefagad/reliefagad.component';
 
@@ -11,6 +12,10 @@ const routes: Routes = [
   {
     path: 'reliefagad',
     component: ReliefagadComponent,
+  },
+  {
+    path: 'up-noah-revamped',
+    component: NOAHComponent,
   },
 ];
 
