@@ -3,11 +3,12 @@ import { CommonModule } from '@angular/common';
 
 import { PortfolioRoutingModule } from './portfolio-routing.module';
 import { RapidpassComponent } from './pages/rapidpass/rapidpass.component';
+import { ReliefagadComponent } from './pages/reliefagad/reliefagad.component';
 
-const pages = [RapidpassComponent];
+const pages = [RapidpassComponent, ReliefagadComponent];
 
 @NgModule({
-  declarations: [RapidpassComponent],
+  declarations: [...pages],
   imports: [CommonModule, PortfolioRoutingModule],
 })
 export class PortfolioModule {}
