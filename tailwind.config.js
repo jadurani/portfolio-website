@@ -3,6 +3,17 @@ const defaultTheme = require('tailwindcss/defaultTheme');
 module.exports = {
   content: ['./src/**/*.{html,ts}'],
   theme: {
+    container: {
+      center: true,
+      padding: {
+        DEFAULT: '2rem',
+        sm: '2.5rem',
+        md: '3rem',
+        lg: '4rem',
+        xl: '10rem',
+        '2xl': '12rem',
+      },
+    },
     extend: {
       fontFamily: {
         body: ['Montserrat', ...defaultTheme.fontFamily.sans],
