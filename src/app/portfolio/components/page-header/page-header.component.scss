@@ -1,0 +1,10 @@
+.Header {
+  min-height: 52px;
+  transition: 0.25s;
+  box-shadow: 1px 1px 1px rgba(33, 33, 33, 0.1);
+  color: #212121;
+
+  &.show-bg {
+    backdrop-filter: blur(100px);
+  }
+}
