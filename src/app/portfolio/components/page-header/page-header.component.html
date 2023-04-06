@@ -1,5 +1,9 @@
-<nav class="Header show-bg w-full flex items-center" #header>
-  <div class="container text-white my-auto">
+<nav
+  class="Header flex items-center w-full"
+  [class.show-bg]="!isHeaderAtTop"
+  #header
+>
+  <div class="container my-auto">
     <a routerLink="/" class="text-white">jadurani.me</a>
   </div>
 </nav>
