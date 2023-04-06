@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { NOAHComponent } from './pages/noah/noah.component';
 import { RapidpassComponent } from './pages/rapidpass/rapidpass.component';
 import { ReliefagadComponent } from './pages/reliefagad/reliefagad.component';
+import { BayanipayComponent } from './pages/bayanipay/bayanipay.component';
 
 const routes: Routes = [
   {
@@ -16,6 +17,10 @@ const routes: Routes = [
   {
     path: 'up-noah-revamped',
     component: NOAHComponent,
+  },
+  {
+    path: 'bayanipay',
+    component: BayanipayComponent,
   },
 ];
 
